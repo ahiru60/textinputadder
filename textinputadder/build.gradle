@@ -28,7 +28,7 @@ android {
 }
 publishing {
     publications {
-        release(MavenPublication) {
+        register(MavenPublication) {
             groupId = 'com.nvision'
             artifactId = 'textinputadder'
             version = '1.0.0'
