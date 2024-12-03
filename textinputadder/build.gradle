@@ -31,7 +31,7 @@ publishing {
         register(MavenPublication) {
             groupId = 'com.nvision'
             artifactId = 'textinputadder'
-            version = '1.0.0'
+            version = '1.0.3'
 
             afterEvaluate {
                 from(components.findByName("release"))
